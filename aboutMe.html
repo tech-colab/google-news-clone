@@ -2,10 +2,220 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="media/favicon_google-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>à propos</title>
+    <title>Google Actualités</title>
 </head>
 <body>
+    <head>
+        <nav class="nav_container">
+            <div class="logo">
+                <a href="index.html" style="cursor: pointer;">
+                    <img src="media/logo_google.svg" alt="Logo">
+                    <span>Actualités</span>
+                </a>
+            </div>
+            <div class="help_center">
+                <div class="search_panel">
+                    <div class="icon_search">
+                        <span class="material-symbols-outlined search_icon">
+                            search
+                        </span>
+                    </div>
+                    <input type="text" placeholder="Rechercher des sujets">
+                    <div class="arrow_icon">
+                        <span class="material-symbols-outlined arrow_drop_down">
+                            arrow_drop_down
+                        </span>
+                    </div>
+                </div>
+                <div class="help">
+                    <span class="material-symbols-outlined">
+                        help
+                    </span>
+                    <span class="material-symbols-outlined">
+                        settings
+                    </span>
+                </div>
+            </div>
+            <div class="connexion">
+                <a href="/user.html"><img src="media/photo de compte.png" alt="image"></a>
+                <svg class="gb_h" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+                
+                <!-- <div class="icon_search">
+                    <span class="material-symbols-outlined search_icon">
+                        search
+                    </span>
+                </div> -->
+                <div class="search">
+                    <input type="checkbox" id="search_btn">
+                    <label for="search_btn">
+                        <div class="icon_search">
+                            <span class="material-symbols-outlined search_icon">
+                                search
+                            </span>
+                        </div>
+                    </label>
+                   
+                    <div class="search_pannel">
+                        <input type="text" placeholder="Rechercher des sujets">
+                    </div>
+
+                </div>
+            </div>
+
+        </nav>
+        <nav class="links">
+            <ul>
+                <li><a class="active" href="/index.html">acceuil</a></li>
+                <li><a href="#">pour vous</a></li>
+                <li><a href="#">suivis</a></li>
+                <span class="line">|</span>
+                <li><a href="#">france</a></li>
+                <li><a href="#">international</a></li>
+                <li><a href="#">actualités locales</a></li>
+                <li><a href="#">économie</a></li>
+                <li><a href="#">sciences et technologies</a></li>
+                <li><a href="#">divertissement</a></li>
+                <li><a href="#">sports</a></li>
+                <li><a href="#">santé</a></li>
+            </ul>
+        </nav>
+
+    </head>
+    <div class="body-1">
+
+        
+        <!-- single page section of about us -->
+        <section class="magazine">
+          <h1 class="magazine__title">
+            Livrable 1:
+          </h1>
+      
+          <!-- main content of about us page -->
+
+          <main class="magazine__main-content">
+            <h3> page d'accueil </h3>
+            <p>
+                Notre clone de Google News offre une expérience de navigation fluide avec une page d'accueil cruciale. Nous avons mis l'accent sur la réactivité, utilisant des techniques modernes de conception web telles que flexbox et grid items pour garantir une adaptation optimale à diverses tailles d'écran et appareils.
+
+                La mise en page est conviviale, dotée d'un système de navigation clair et intuitif. Nous avons intégré des balises sémantiques HTML telles que < article >, < aside > et < nav > pour améliorer l'organisation structurelle de la page et renforcer l'accessibilité.
+                
+                Fonctionnalités clés :
+                
+            </p>   
+            <ol>
+                <li>- Conception réactive : La page d'accueil s'ajuste dynamiquement en fonction du périphérique de l'utilisateur, assurant une expérience cohérente sur les ordinateurs de bureau et les appareils mobiles.</li>
+                <li>- Flexbox et Grid Items : Nous avons exploité flexbox et grid items pour obtenir une conception flexible et réactive, permettant aux éléments de s'aligner et de se redimensionner de manière intelligente.</li>
+                <li>- Navigation : L'élément &lt;nav&gt; est utilisé pour créer un menu de navigation convivial, permettant aux utilisateurs d'explorer facilement différentes sections du site.</li>
+                <li>- Balisage sémantique : En utilisant des balises HTML sémantiques telles que &lt;article&gt;, &lt;aside&gt; et &lt;nav&gt;, nous avons cherché à améliorer l'accessibilité et la structure de la page, améliorant ainsi l'expérience utilisateur.</li>
+            <ol>
+            <figure class="figure">
+                <img class="figure__img" src="media/Screenshot home.png" alt="">
+            </figure>
+            <cite class="magazine__citation">
+            Une page d'accueil/landing page nommé "index.html".
+            </cite>
+            <!-- second page: formular page -->
+            <h3> page formulaire </h3>
+            <p>
+                La page du formulaire de notre clone de Google News agit comme un formulaire statique de saisie de profil. Nous nous sommes concentrés sur la conception d'entrées visuellement attrayantes et de boutons interactifs pour offrir aux utilisateurs une expérience engageante et intuitive.
+            </p>
+            <ul>
+                <li>- Saisie de profil : Nous avons conçu un ensemble de champs de saisie pour recueillir des informations de profil utilisateur telles que le nom, l'e-mail et la biographie. Chaque champ de saisie est soigneusement stylisé pour améliorer l'esthétique globale et l'expérience utilisateur.</li>
+                <li>- Boutons : Nous avons créé des boutons visuellement attrayants pour des actions telles que la soumission du formulaire ou l'annulation du processus de saisie. Ces boutons sont conçus pour être interactifs et réactifs, fournissant un retour à l'utilisateur lorsqu'ils sont cliqués ou survolés.</li>
+            </ul>
+            <figure class="figure">
+                <img class="figure__img" src="media/Screenshot formulaire.png" alt="">
+            </figure>
+            <cite class="magazine__citation">
+                Outil de recherche d’articles (formulaire).
+            </cite>
+            <!-- third page: the main article -->
+            <h3>Article de presse</h3>
+            <p>La page d'article de notre clone de Google News présente une mise en page réactive qui affiche un article sélectionné de manière engageante et conviviale. Nous avons cherché à offrir une expérience de lecture fluide aux utilisateurs sur divers appareils.
+                Fonctionnalités clés :
+            </p>
+            <ol>
+                <li>- Conception réactive : La page d'article est conçue en gardant à l'esprit la réactivité, garantissant que le contenu s'adapte à différentes tailles d'écran et orientations. Cela permet aux utilisateurs de lire confortablement les articles sur des ordinateurs de bureau, des tablettes et des appareils mobiles.</li>
+                <li>- Contenu de l'article : Nous avons soigneusement choisi un article existant à afficher sur la page. Le contenu est structuré à l'aide de balises HTML sémantiques, telles que &lt;article&gt;, pour offrir une délimitation claire entre les sections et améliorer l'accessibilité.</li>
+                <li>- Typographie et lisibilité : Nous avons mis l'accent sur la typographie pour améliorer la lisibilité de l'article. Nous avons sélectionné des styles de police appropriés, des tailles et des espacements de ligne pour rendre le texte facilement lisible, assurant une expérience de lecture agréable pour les utilisateurs.</li>
+                <li>- Intégration multimédia : Selon la nature de l'article, nous avons intégré des éléments multimédias tels que des images, des vidéos ou du contenu intégré pour améliorer l'attrait visuel et l'engagement de la page.</li>
+            </ol>
+            <figure class="figure">
+                <img class="figure__img" src="media/Screenshot article.png" alt="">
+            </figure>
+            <cite class="magazine__citation">
+                Article de presse.
+            </cite>
+          
+          </main>
+        </section>
     
+</div>
+    
+    
+    <hr style="margin-top: 20px;margin-bottom: 20px;border-color:transparent ;">
+    <footer class="footer" style="background-color:#F6F8FC ;">
+
+        <div class="box-container"
+            style="max-width: 1110px; margin: auto; padding: 16px; background-color: #fff;border-radius: 18px;">
+
+            <div class="box">
+                <h3>thémes</h3>
+                <a href="#">my europe</a>
+                <a href="#">sport</a>
+                <a href="#">actualités locales</a>
+                <a href="#">culture et musique</a>
+                <a href="#">environnement et nature</a>
+                <a href="#">monde</a>
+                <a href="#">sciences et technologies </a>
+                <a href="#">vie pratique</a>
+            </div>
+            <div class="box">
+                <h3>services</h3>
+                <a href="#">live</a>
+                <a href="#">score centre</a>
+                <a href="#">météo</a>
+                <a href="#">Le JT</a>
+                <a href="#">titres diffusés</a>
+                <a href="#">concours</a>
+                <a href="#">archives (sitemap)</a>
+                <a href="#">code promo</a>
+            </div>
+            <div class="box">
+                <h3>plus</h3>
+                <a href="#">Matin Premiére</a>
+                <a href="#">déclic</a>
+                <a href="#">QR</a>
+                <a href="#">#investigation</a>
+                <a href="#">inside</a>
+                <a href="#">les Grenades</a>
+                <a href="#">faky (Fact-Checking)</a>
+            </div>
+            <div class="box">
+                <h3>programme radios</h3>
+                <a href="#">classic 21</a>
+                <a href="#">la Premiére</a>
+                <a href="#">vivacité</a>
+                <a href="#">tipik</a>
+                <a href="#">musiq3</a>
+                <a href="#">tarmac</a>
+                <a href="#">viva+</a>
+            </div>
+            
+
+
+
+
+        </div>
+
+    </footer>
 </body>
 </html>

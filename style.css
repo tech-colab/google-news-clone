@@ -30,13 +30,13 @@ body {
     background-color: #fff;
 }
 
-.logo {
+.logo a {
     display: flex;
     align-items: center;
     flex: 1 0 auto;
 }
 
-.logo span {
+.logo a span {
     font-family: 'Product Sans', sans-serif;
     color: #5F6368;
     font-size: 22px;
@@ -1205,7 +1205,7 @@ main {
     padding: 0;
     grid-column: 2;
     
-    text-align: center;
+    /* text-align: center; */
   }
   
   .magazine__title_place_top {
@@ -1311,8 +1311,15 @@ main {
   
   }
   .magazine__main-content p{
-    line-height: 1.5rem;
-  
+    line-height: 1.5rem;  
+  }
+  .magazine__main-content ol{
+    margin-top: 1rem;
+    list-style: decimal !important;
+  }
+  .magazine__main-content ol li {
+    line-height: 1.5rem;  
+
   }
   
   .magazine__para {
