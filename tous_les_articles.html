@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="media/favicon_google-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Actualités</title>
+</head>
+
+<body>
+
+    <head>
+        <nav class="nav_container">
+            <div class="logo">
+                <a href="index.html" style="cursor: pointer;">
+                    <img src="media/logo_google.svg" alt="Logo">
+                    <span>Actualités</span>
+                </a>
+            </div>
+            <div class="help_center">
+                <div class="search_panel">
+                    <div class="icon_search">
+                        <span class="material-symbols-outlined search_icon">
+                            search
+                        </span>
+                    </div>
+                    <input type="text" placeholder="Rechercher des sujets">
+                    <div class="arrow_icon">
+                        <span class="material-symbols-outlined arrow_drop_down">
+                            arrow_drop_down
+                        </span>
+                    </div>
+                </div>
+                <div class="help">
+                    <span class="material-symbols-outlined">
+                        help
+                    </span>
+                    <span class="material-symbols-outlined">
+                        settings
+                    </span>
+                </div>
+            </div>
+            <div class="connexion">
+                <a href="/user.html"><img src="media/photo de compte.png" alt="image"></a>
+                <svg class="gb_h" focusable="false" viewBox="0 0 24 24">
+                    <path
+                        d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                    </path>
+                </svg>
+
+                <!-- <div class="icon_search">
+                    <span class="material-symbols-outlined search_icon">
+                        search
+                    </span>
+                </div> -->
+                <div class="search">
+                    <input type="checkbox" id="search_btn">
+                    <label for="search_btn">
+                        <div class="icon_search">
+                            <span class="material-symbols-outlined search_icon">
+                                search
+                            </span>
+                        </div>
+                    </label>
+
+                    <div class="search_pannel">
+                        <input type="text" placeholder="Rechercher des sujets">
+                    </div>
+
+                </div>
+            </div>
+
+        </nav>
+        <nav class="links">
+            <ul>
+                <li><a href="/index.html">acceuil</a></li>
+                <li><a class="active" href="tous_les_articles.html">tous les articles</a></li>
+                <li><a href="/user.html">profile</a></li>
+                <li><a href="aboutMe.html">à propos</a></li>
+                <span class="line">|</span>
+                <li><a href="#">france</a></li>
+                <li><a href="#">international</a></li>
+                <li><a href="#">actualités locales</a></li>
+                <li><a href="#">économie</a></li>
+                 
+                <li><a href="#">sports</a></li>
+                <li><a href="#">santé</a></li>
+            </ul>
+        </nav>
+
+    </head>
+    <main>
+        <div class="container_tousArticles">
+            <div class="top_informations" style="padding-left: 37px;">
+                <div class="selection">
+                    <div class="titles">
+                        <h2>News Showcase </h2>
+                        <span>Histoires sélectionnées par les rédacteurs de la rédaction</span>
+                    </div>
+
+                </div>
+
+            </div>
+            <!--Product Grid-->
+            <div id="div1">
+                <section class="section-grid">
+                    <div class="grid-prod">
+                        <div class="prod-grid">
+                            <div class="journal">
+                                <img src="media/RioGrand.png" alt="RioGrand">
+                                <div class="follow">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" focusable="false" class=" NMm5M">
+                                        <path
+                                            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z">
+                                        </path>
+                                    </svg>
+                                    <span>Suivre</span>
+                                </div>
+                            </div>
+                            <div class="date" style="background-color: #053062;">
+                                December 10, 2023 Stories
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>Gouvernement </span>
+                                    </div>
+                                    <h4>
+                                        Vidéo publiée montrant l'intérieur du nouveau palais de justice du comté d'Hidalgo
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article1_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>Affaires frontalières </span>
+                                    </div>
+                                    <h4>
+                                        Les dirigeants de la vallée attendent de grandes choses en 2024 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article2_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>l'enseignement supérieur </span>
+                                    </div>
+                                    <h4>
+                                        Putegnat : le TSTC, n'est plus le secret le mieux gardé du Texas 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article3_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+
+                        </div>
+                        <div class="prod-grid">
+                            <div class="journal">
+                                <img src="media/Documented.png" alt="Documented" style="width: 120px;height: 100%;object-fit: cover;">
+                                <div class="follow">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" focusable="false" class=" NMm5M">
+                                        <path
+                                            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z">
+                                        </path>
+                                    </svg>
+                                    <span>Suivre</span>
+                                </div>
+                            </div>
+                            <div class="date" style="background-color: #3c4043;">
+                                Communauté  
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>gouvernement</span>
+                                    </div>
+                                    <h4>
+                                        Guerre en Ukraine, en
+                                            direct : Volodymyr Zelensky fait état « d'actions contre-offensives »
+                                            ukrainiennes sur
+                                            le front
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/unnamed.webp" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>Police/Crime</span>
+                                    </div>
+                                    <h4>
+                                        La Croix-Rouge américaine offre des cadeaux aux donneurs de sang tout au long du mois de décembre  
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article6_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>Police/Crime </span>
+                                    </div>
+                                    <h4>
+                                        La police enquête sur la mort d'un homme dans son domicile à Bloomsburg 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article4_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>Police/Crime</span>
+                                    </div>
+                                    <h4>
+                                        L'affaire des coups portés au nourrisson avance, l'accusation d'étranglement retirée 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article5_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+
+                        </div>
+                        <div class="prod-grid">
+                            <div class="journal">
+                                <img src="media/RichlandSource.png" alt="RioGrand" style="width: 120px;height: 100%;object-fit: cover;">
+                                <div class="follow">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" focusable="false" class=" NMm5M">
+                                        <path
+                                            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z">
+                                        </path>
+                                    </svg>
+                                    <span>Suivre</span>
+                                </div>
+                            </div>
+                            <div class="date" style="background-color: #3c4043;">
+                                Nouvelles locales et dernières 
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>CRIME </span>
+                                    </div>
+                                    <h4>
+                                        Une poursuite en voiture à grande vitesse se termine par des arrestations 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article7_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>DES SPORTS </span>
+                                    </div>
+                                    <h4>
+                                        Les cowgirls abandonnent un concours âprement disputé à Creighton 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article8_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>WYOMING </span>
+                                    </div>
+                                    <h4>
+                                        De mystérieux courriers attaquent les législateurs du Wyoming et déclenchent une enquête 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article9_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+
+                        </div>
+                        <div class="prod-grid">
+                            <div class="journal">
+                                <img src="media/Scene.png" alt="Scene"style="width: 120px;height: 100%;object-fit: cover;">
+                                <div class="follow">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" focusable="false" class=" NMm5M">
+                                        <path
+                                            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z">
+                                        </path>
+                                    </svg>
+                                    <span>Suivre</span>
+                                </div>
+                            </div>
+                            <div class="date" style="background-color: #121212;">
+                                Meilleures histoires 
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>NOUS</span>
+                                    </div>
+                                    <h4>
+                                        Alors que le président de Harvard fait face à des pressions pour démissionner, certains professeurs manifestent leur soutien 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article10_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>analyse de l'actualité </span>
+                                    </div>
+                                    <h4>
+                                        Alors que la fureur éclate face à l’antisémitisme sur les campus, les conservateurs saisissent l’occasion 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article11_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>NOUS</span>
+                                    </div>
+                                    <h4>
+                                        À Penn, postes vacants en leadership et angoisse sur le campus 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article12_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+
+                        </div>
+                        <div class="prod-grid">
+                            <div class="journal">
+                                <img src="media/OrlandoWeekly.png" alt="RioGrand">
+                                <div class="follow">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" focusable="false" class=" NMm5M">
+                                        <path
+                                            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z">
+                                        </path>
+                                    </svg>
+                                    <span>Suivre</span>
+                                </div>
+                            </div>
+                            <div class="date" style="background-color: #3c4043;">
+                                Le Herald Nouvelles 
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>Le Herald Nouvelles </span>
+                                    </div>
+                                    <h4>
+                                        Le café-bibliothèque populaire de Joliet ferme ses portes alors que les propriétaires prennent leur retraite 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article13_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>Affaires frontalières </span>
+                                    </div>
+                                    <h4>
+                                        Les dirigeants de la vallée attendent de grandes choses en 2024 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article14_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>l'enseignement supérieur </span>
+                                    </div>
+                                    <h4>
+                                        Putegnat : le TSTC, n'est plus le secret le mieux gardé du Texas 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article15_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+
+                        </div>
+                        <div class="prod-grid">
+                            <div class="journal">
+                                <img src="media/WilsonTime.png" alt="WilsonTime">
+                                <div class="follow">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" focusable="false" class=" NMm5M">
+                                        <path
+                                            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z">
+                                        </path>
+                                    </svg>
+                                    <span>Suivre</span>
+                                </div>
+                            </div>
+                            <div class="date" style="background-color: #b4320b;">
+                                DanvilleSanRamon.com
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>10 décembre, 15h43 </span>
+                                    </div>
+                                    <h4>
+                                        La police de San Ramon poursuit son enquête après le vol d'un véhicule 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article16_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>10 décembre, 12h35 </span>
+                                    </div>
+                                    <h4>
+                                        Danville présente des prix communautaires annuels 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article17_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+                            <div class="big_articles"><a href="article.html">
+                                <div class="content">
+                                    <div class="title_subarticle">
+                                        <span>10 décembre, 12h29 </span>
+                                    </div>
+                                    <h4>
+                                        Le conseil de San Ramon se réunira extraordinairement sur Iron Horse Vill 
+                                    </h4>
+
+                                </div>
+                                <figure>
+                                    <img src="media/article18_showcase.png" alt=""
+                                         style="width: 77px;height: 58px;border-radius: 8px;object-fit: cover;">
+                                </figure></a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <!-- <div class="prod-grid">
+
+                    </div>
+                    <div class="prod-grid">
+
+                    </div>
+                    <div class="prod-grid">
+
+                    </div>
+                    <div class="prod-grid">
+
+                    </div>
+                    <div class="prod-grid">
+
+                    </div> -->
+            </div>
+            </section>
+        </div>
+        <!--Product List-->
+        <div id="div2" style="display:none;">
+            <section class="section-list">
+                <table>
+                    <tr>
+                        <td><img src="https://images.contentful.com/3h0qt25be5vd/1ojeAoISmMSKysKIOKEWGi/22b6344383ffabc7e250f1eed88287ae/Brew_Guide-KalitaWave-Step03.jpg?w=960&h=640&fm=jpg&q=70"
+                                alt="kalita">
+                        <td>
+                        <td>
+                            <h3>Ph'nglui mglw'nafh. </h3>
+                            <p>Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.</p>
+                            <button class="btn-list"> Buy <i class="fa fa-shopping-cart"
+                                    aria-hidden="true"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="30%"><img
+                                src="https://images.contentful.com/3h0qt25be5vd/1ojeAoISmMSKysKIOKEWGi/22b6344383ffabc7e250f1eed88287ae/Brew_Guide-KalitaWave-Step03.jpg?w=960&h=640&fm=jpg&q=70"
+                                alt="kalita">
+                        <td>
+                        <td>
+                            <h3>Ph'nglui mglw'nafh. </h3>
+                            <p>Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.</p>
+                            <button class="btn-list"> Buy <i class="fa fa-shopping-cart"
+                                    aria-hidden="true"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="30%"><img
+                                src="https://images.contentful.com/3h0qt25be5vd/1ojeAoISmMSKysKIOKEWGi/22b6344383ffabc7e250f1eed88287ae/Brew_Guide-KalitaWave-Step03.jpg?w=960&h=640&fm=jpg&q=70"
+                                alt="kalita">
+                        <td>
+                        <td>
+                            <h3>Ph'nglui mglw'nafh. </h3>
+                            <p>Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.</p>
+                            <button class="btn-list"> Buy <i class="fa fa-shopping-cart"
+                                    aria-hidden="true"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="30%"><img
+                                src="https://images.contentful.com/3h0qt25be5vd/1ojeAoISmMSKysKIOKEWGi/22b6344383ffabc7e250f1eed88287ae/Brew_Guide-KalitaWave-Step03.jpg?w=960&h=640&fm=jpg&q=70"
+                                alt="kalita">
+                        <td>
+                        <td>
+                            <h3>Ph'nglui mglw'nafh. </h3>
+                            <p>Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.</p>
+                            <button class="btn-list"> Buy <i class="fa fa-shopping-cart"
+                                    aria-hidden="true"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="30%"><img
+                                src="https://images.contentful.com/3h0qt25be5vd/1ojeAoISmMSKysKIOKEWGi/22b6344383ffabc7e250f1eed88287ae/Brew_Guide-KalitaWave-Step03.jpg?w=960&h=640&fm=jpg&q=70"
+                                alt="kalita">
+                        <td>
+                        <td>
+                            <h3>Ph'nglui mglw'nafh. </h3>
+                            <p>Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.</p>
+                            <button class="btn-list"> Buy <i class="fa fa-shopping-cart"
+                                    aria-hidden="true"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="30%"><img
+                                src="https://images.contentful.com/3h0qt25be5vd/1ojeAoISmMSKysKIOKEWGi/22b6344383ffabc7e250f1eed88287ae/Brew_Guide-KalitaWave-Step03.jpg?w=960&h=640&fm=jpg&q=70"
+                                alt="kalita">
+                        <td>
+                        <td>
+                            <h3>Ph'nglui mglw'nafh. </h3>
+                            <p>Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.</p>
+                            <button class="btn-list"> Buy <i class="fa fa-shopping-cart"
+                                    aria-hidden="true"></i></button>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+        </div>
+    </main>
+    <hr style="margin-top: 20px;margin-bottom: 20px;border-color:transparent ;">
+    <footer class="footer" style="background-color:#F6F8FC ;">
+
+        <div class="box-container"
+            style="max-width: 1110px; margin: auto; padding: 16px; background-color: #fff;border-radius: 18px;">
+
+            <div class="box">
+                <h3>thémes</h3>
+                <a href="#">my europe</a>
+                <a href="#">sport</a>
+                <a href="#">actualités locales</a>
+                <a href="#">culture et musique</a>
+                <a href="#">environnement et nature</a>
+                <a href="#">monde</a>
+                <a href="#">sciences et technologies </a>
+                <a href="#">vie pratique</a>
+            </div>
+            <div class="box">
+                <h3>services</h3>
+                <a href="#">live</a>
+                <a href="#">score centre</a>
+                <a href="#">météo</a>
+                <a href="#">Le JT</a>
+                <a href="#">titres diffusés</a>
+                <a href="#">concours</a>
+                <a href="#">archives (sitemap)</a>
+                <a href="#">code promo</a>
+            </div>
+            <div class="box">
+                <h3>Liens pricipales</h3>
+                <a href="/index.html">acceuil</a>
+                <a href="tous_les_articles.html">tous les articles</a>
+                <a href="/user.html">profile</a>
+                <a href="aboutMe.html">à propos</a>
+            </div>
+            <div class="box">
+                <h3>programme radios</h3>
+                <a href="#">classic 21</a>
+                <a href="#">la Premiére</a>
+                <a href="#">vivacité</a>
+                <a href="#">tipik</a>
+                <a href="#">musiq3</a>
+                <a href="#">tarmac</a>
+                <a href="#">viva+</a>
+            </div>
+
+
+
+
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
